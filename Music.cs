@@ -120,7 +120,7 @@ public class Program {
         Console.WriteLine("Ionian mode (1,2,3,4,5,6,7)");
         Console.WriteLine($"{global.majNotes[0]}, {global.majNotes[1]}, {global.majNotes[2]}, {global.majNotes[3]}, {global.majNotes[4]}, {global.majNotes[5]}, {global.majNotes[6]}");
 
-        Console.WriteLine("Doran mode (1,2,b3,4,5,6,b7)");
+        Console.WriteLine("Dorian mode (1,2,b3,4,5,6,b7)");
         string b7 = global.notes[(global.notes.IndexOf(global.majNotes[5]) + 1)];
         string b3 = global.notes[(global.notes.IndexOf(global.majNotes[1]) + 1)];
         Console.WriteLine($"{global.majNotes[0]}, {global.majNotes[1]}, {b3}, {global.majNotes[3]}, {global.majNotes[4]}, {global.majNotes[5]}, {global.majNotes[6]}");
