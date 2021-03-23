@@ -17,7 +17,7 @@ class program {
             // spaces are not encrypted so are ignored for this program
             if (letter != ' ') {
                 // find numerical value of each letter using the global alphabet
-                int index = Array.IndexOf(global.alphabet, messageArray[i]);
+                int index = Array.IndexOf(global.alphabet, letter);
                 // if coded == true; the key is now used to decrypt the message
                 // if coded == false; the key is used to now encrypt the message
                 if (coded) {
